@@ -1,0 +1,36 @@
+# ── Credentials (NEVER commit) ────────────────────────────────────────────────
+.env
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ── Data / Logs ───────────────────────────────────────────────────────────────
+*.csv
+*.log
+trade_history.json
+portfolio_state.json
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
