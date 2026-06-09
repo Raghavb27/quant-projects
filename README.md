@@ -206,3 +206,4 @@ Always paper-trade before committing real capital.
 ## 📄 License
 
 MIT — free to use, modify, and distribute.
+# quant-projects
